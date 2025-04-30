@@ -1,0 +1,184 @@
+.on-the-go-wrapper {
+  font-family: "Arial", sans-serif;
+  padding: 5px 20px;
+}
+
+.top-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  position: relative;
+  top: -30px;
+  left: 60px;
+}
+
+.left h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.left p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+.qr-row {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+
+.qr-img {
+  width: 150px;
+  height: auto;
+}
+
+.qr-text {
+  margin-left: 30px;
+}
+
+.qr-text h4 {
+  color: #0033ff;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.qr-text span {
+  font-size: 15px;
+  color: #777;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.app-img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.bottom-bar {
+  background-color: #eef2ff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  text-align: center;
+}
+
+.info span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.download-app {
+  font-weight: 300;
+  color: gray;
+  position: relative;
+  top: 12px;
+  text-decoration: none;
+}
+
+.app-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.highlight {
+  color: hsl(228, 100%, 60%);
+}
+
+.stores img {
+  width: 120px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.rating {
+  text-align: right;
+}
+
+.users-img {
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.stars {
+  font-size: 14px;
+  color: #222;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .top-content {
+    flex-direction: column;
+  }
+
+  .left {
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .qr-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .qr-text {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .right {
+    margin-top: 30px;
+  }
+
+  .bottom-bar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .rating {
+    text-align: center;
+  }
+
+  .app-icons {
+    justify-content: center;
+  }
+}

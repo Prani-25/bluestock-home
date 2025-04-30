@@ -1,0 +1,241 @@
+.features-wrapper {
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .feature-card {
+    flex: 1;
+    min-width: 240px;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .purple-card {
+    background-color: #f2f0ff;
+  }
+  
+  .pink-card {
+    background-color: #ffeaea;
+  }
+  
+  .yellow-card {
+    background-color: #fff2d9;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #2a00a0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+  }
+  
+  .feature-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feature-card li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .feature-card li span {
+    background-color: #00c56b;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .love-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 50px;
+    gap: 10px;
+  }
+  
+  .love-text {
+    flex: 1;
+    min-width: 400px;
+  }
+  
+  .love-text h2 {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+  }
+  
+  .love-text p {
+    color: #777;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .icon-row {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 20px;
+  }
+  
+  .icon-box {
+    background-color: #fff2d9;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  
+  .love-side {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    left: -150px;
+  }
+  
+  .confetti {
+    font-size: 44px;
+    margin-bottom: 5px;
+  }
+
+ .love-side .badge {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: linear-gradient(to right, hsl(163, 96%, 82%), hsl(188, 84%, 67%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+  .resources-section {
+    text-align: left;
+    margin-top: 0px;
+    position: relative;
+    right:  -750px;
+  }
+  
+  .resource-tag {
+    background-color: #00c56b;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .resources-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resources-section p {
+    color: #777;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+ /* Additional Responsive Enhancements */
+@media (max-width: 1024px) {
+
+  .love-text h2 {
+    font-size: 24px;
+  }
+
+  .resources-section h2 {
+    font-size: 20px;
+  }
+
+  .icon-box {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .features-wrapper {
+    padding: 30px 15px;
+  }
+
+  .feature-card {
+    max-width: 90%;
+  }
+
+  .card-title {
+    font-size: 15px;
+  }
+
+  .feature-card li {
+    font-size: 13px;
+  }
+  
+  .love-section{
+    position: relative;
+    left: -40px;
+  }
+
+  .love-text {
+    min-width: auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .love-side {
+    width: 80%;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    left: -10px;
+  }
+
+  .love-side .badge {
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+  }
+
+  .resources-section p {
+    font-size: 13px;
+  }
+
+  .icon-box {
+    font-size: 13px;
+    text-align: center;
+  }
+}
