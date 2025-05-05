@@ -1,5 +1,7 @@
 # React + Vite
 
+It's a home page for BlueStock start-up company 
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
